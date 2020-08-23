@@ -1,8 +1,8 @@
-#Dokimi is a demo site for Flask and Vue.js
+# Dokimi is a demo site for Flask and Vue.js
 
 ### the frontend is Vue.js and the backend is a simple Python Flask API
 
-# install and run for dev
+## install and run for dev
 
 ## frontend
 
