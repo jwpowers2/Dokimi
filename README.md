@@ -1,4 +1,4 @@
-#Dokimi is a site I've built for a job interview
+#Dokimi is a demo site for Flask and Vue.js
 
 ### the frontend is Vue.js and the backend is a simple Python Flask API
 
@@ -17,11 +17,15 @@
 
 ## backend
 
-1. cd into backend from frontend
-   `cd ../backend`
-2. use pip to install dependencies
+1. cd into root of project
+   `cd ..`
+2. make backend a virtualenv
+   `virtualenv backend`
+3. activate virtualenv
+   `source backend/bin/activate`
+4. use pip to install dependencies
    `pip install -r requirements.txt`
-3. env variable for flask app
+5. env variable for flask app
    `export FLASK_APP=api_server.py`
-4. run flask development server
+6. run flask development server
    `flask run`
