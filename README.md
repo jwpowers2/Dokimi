@@ -21,5 +21,7 @@
    `cd ../backend`
 2. use pip to install dependencies
    `pip install -r requirements.txt`
-3. run flask development server
+3. env variable for flask app
+   `export FLASK_APP=api_server.py`
+4. run flask development server
    `flask run`
