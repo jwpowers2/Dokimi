@@ -8,7 +8,7 @@ from .RecursionString import RecursionString
 app = Flask(__name__)
 CORS(app)
 
-# produces are of a triangle
+# produces area of a triangle
 
 
 @app.route('/api/area', methods=['POST'])
